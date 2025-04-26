@@ -1,0 +1,95 @@
+.section6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 40px;
+    padding: 50px 200px;
+  }
+  
+  .textWrapper {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .textWrapper h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color:rgb(46, 24, 106);
+    padding: 0px 150px;
+    
+  }
+  
+  .textWrapper p {
+    font-size: 1.3rem;
+    color: #555;
+    line-height: 1.6;
+    padding: 0px 120px;
+  }
+  
+  .formWrapper {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #444;
+  }
+  
+  input,
+  textarea {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: none;
+  }
+  
+  textarea {
+    min-height: 100px;
+  }
+  
+  button {
+    padding: px;
+    font-size: 1rem;
+    background-color:rgb(46, 24, 106);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 150px;
+    transition: background 0.3s;
+  }
+  
+  /* Hover effect */
+  button:hover {
+    background-color: #e65c00;
+  }
+  
+  /* Click (active) effect */
+  button:active {
+    background-color: orange;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .section6 {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .formWrapper {
+      padding: 0;
+    }
+  }
+  

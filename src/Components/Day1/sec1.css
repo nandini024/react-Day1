@@ -1,0 +1,99 @@
+/* sec1.css */
+
+/* Apply a background color or gradient */
+.mainSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 200px;
+    /* background: linear-gradient(135deg, #6e7dff, #00c6ff); */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    color: rgb(24, 33, 109);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .sec1Container {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .sec1Container h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 10px 200px;
+    color: rgb(24, 33, 109);
+  }
+  
+  .sec1Container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    padding: 10px 100px;
+    color: rgb(24, 33, 109);
+  }
+  
+  .imageContainer {
+    flex: 1;
+  }
+
+  .btn{
+    margin-left: 100px;
+  }
+  
+  .imageContainer img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for buttons */
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .btn{
+    padding: 10px 50px;
+  }
+  
+  button:hover {
+    background-color: orange;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .mainSection {
+      flex-direction: column;
+      text-align: center;
+      padding: 30px 10px;
+    }
+  
+    .sec1Container h1 {
+      font-size: 2rem;
+      padding: 20px 100px;
+    }
+  
+    .sec1Container p {
+      font-size: 1rem;
+    }
+  
+    .imageContainer {
+      margin-top: 20px;
+    }
+  
+    button {
+      font-size: 1.2rem;
+      padding: 12px 24px;
+    }
+  }
+
+  

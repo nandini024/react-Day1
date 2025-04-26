@@ -1,0 +1,8 @@
+.Cardcontainer {
+   border: 2px solid black;
+  }
+  .child{
+    display:flex
+    /* border:2px solid black; */
+  }
+  
